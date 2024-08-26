@@ -6,139 +6,534 @@
 6    android:versionName="0.1" >
 7
 8    <uses-sdk
-9        android:minSdkVersion="22"
-9-->E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
-10        android:targetSdkVersion="34" />
+9        xmlns:android="http://schemas.android.com/apk/res/android"
+9-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:2:13-71
+10        android:minSdkVersion="22"
 10-->E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
-11
-12    <supports-screens
-12-->E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
-13        android:anyDensity="true"
-13-->E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
-14        android:largeScreens="true"
-14-->E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
-15        android:normalScreens="true"
-15-->E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
-16        android:smallScreens="true"
-16-->E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
-17        android:xlargeScreens="true" />
-17-->E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
-18
-19    <uses-feature android:glEsVersion="0x00030000" />
-19-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-54
-19-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:19-51
-20    <uses-feature
-20-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-13:36
-21        android:name="android.hardware.vulkan.version"
-21-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-55
-22        android:required="false" />
-22-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:9-33
-23    <uses-feature
-23-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:5-16:36
-24        android:name="android.hardware.touchscreen"
-24-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-52
-25        android:required="false" />
-25-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-33
-26    <uses-feature
-26-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:5-19:36
-27        android:name="android.hardware.touchscreen.multitouch"
-27-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-63
-28        android:required="false" />
-28-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-33
-29    <uses-feature
-29-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:5-22:36
-30        android:name="android.hardware.touchscreen.multitouch.distinct"
-30-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-72
-31        android:required="false" />
-31-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:9-33
-32
-33    <application
-33-->E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
-34        android:extractNativeLibs="true"
-34-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:18-50
-35        android:icon="@mipmap/app_icon"
-35-->E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
-36        android:label="@string/app_name" >
-36-->E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
-37        <meta-data
-37-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:9-27:33
-38            android:name="unity.splash-mode"
-38-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-45
-39            android:value="0" />
-39-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-30
-40        <meta-data
-40-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:9-30:36
-41            android:name="unity.splash-enable"
-41-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-47
-42            android:value="True" />
-42-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-33
-43        <meta-data
-43-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:31:9-33:36
-44            android:name="unity.launch-fullscreen"
-44-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-51
-45            android:value="True" />
-45-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:33:13-33
-46        <meta-data
-46-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:34:9-36:37
-47            android:name="unity.allow-resizable-window"
-47-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-56
-48            android:value="False" />
-48-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:36:13-34
-49        <meta-data
-49-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:37:9-39:50
-50            android:name="notch.config"
-50-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-40
-51            android:value="portrait|landscape" />
-51-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:39:13-47
-52        <meta-data
-52-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:40:9-42:36
-53            android:name="unity.auto-report-fully-drawn"
-53-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-57
-54            android:value="true" />
-54-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-33
-55
-56        <activity
-56-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:44:9-65:20
-57            android:name="com.unity3d.player.UnityPlayerActivity"
-57-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-66
-58            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-58-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-194
-59            android:exported="true"
-59-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-36
-60            android:hardwareAccelerated="false"
-60-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:48:13-48
-61            android:launchMode="singleTask"
-61-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:49:13-44
-62            android:resizeableActivity="false"
-62-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:50:13-47
-63            android:screenOrientation="fullUser"
-63-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:51:13-49
-64            android:theme="@style/UnityThemeSelector" >
-64-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:52:13-54
-65            <intent-filter>
-65-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:53:13-57:29
-66                <category android:name="android.intent.category.LAUNCHER" />
-66-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:17-77
-66-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:27-74
-67
-68                <action android:name="android.intent.action.MAIN" />
-68-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:56:17-69
-68-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:56:25-66
-69            </intent-filter>
-70
-71            <meta-data
-71-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:59:13-61:40
-72                android:name="unityplayer.UnityActivity"
-72-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:60:17-57
-73                android:value="true" />
-73-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:61:17-37
-74            <meta-data
-74-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:62:13-64:40
-75                android:name="notch_support"
-75-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:63:17-45
-76                android:value="true" />
-76-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:64:17-37
-77        </activity>
-78    </application>
-79
-80</manifest>
+11        android:targetSdkVersion="34" />
+11-->E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+12
+13    <supports-screens
+13-->E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
+14        android:anyDensity="true"
+14-->E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
+15        android:largeScreens="true"
+15-->E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
+16        android:normalScreens="true"
+16-->E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
+17        android:smallScreens="true"
+17-->E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
+18        android:xlargeScreens="true" />
+18-->E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
+19
+20    <uses-feature android:glEsVersion="0x00030000" />
+20-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-54
+20-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:19-51
+21    <uses-feature
+21-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-13:36
+22        android:name="android.hardware.vulkan.version"
+22-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-55
+23        android:required="false" />
+23-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:9-33
+24    <uses-feature
+24-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:5-16:36
+25        android:name="android.hardware.touchscreen"
+25-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-52
+26        android:required="false" />
+26-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-33
+27    <uses-feature
+27-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:5-19:36
+28        android:name="android.hardware.touchscreen.multitouch"
+28-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-63
+29        android:required="false" />
+29-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-33
+30    <uses-feature
+30-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:5-22:36
+31        android:name="android.hardware.touchscreen.multitouch.distinct"
+31-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-72
+32        android:required="false" />
+32-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:9-33
+33
+34    <uses-permission
+34-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:3:3-123
+35        xmlns:android="http://schemas.android.com/apk/res/android"
+35-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:3:20-78
+36        android:name="android.permission.INTERNET" />
+36-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:3:79-121
+37    <uses-permission
+37-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:4:3-135
+38        xmlns:android="http://schemas.android.com/apk/res/android"
+38-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:4:20-78
+39        android:name="android.permission.ACCESS_NETWORK_STATE" />
+39-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:4:79-133
+40    <uses-permission
+40-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:5:3-135
+41        xmlns:android="http://schemas.android.com/apk/res/android"
+41-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:5:20-78
+42        android:name="com.google.android.gms.permission.AD_ID" />
+42-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:5:79-133
+43    <uses-permission
+43-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:6:3-138
+44        xmlns:android="http://schemas.android.com/apk/res/android"
+44-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:6:20-78
+45        android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+45-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:6:79-136
+46    <uses-permission
+46-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:7:3-144
+47        xmlns:android="http://schemas.android.com/apk/res/android"
+47-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:7:20-78
+48        android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+48-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:7:79-142
+49    <uses-permission
+49-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:8:3-139
+50        xmlns:android="http://schemas.android.com/apk/res/android"
+50-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:8:20-78
+51        android:name="android.permission.ACCESS_ADSERVICES_TOPICS" />
+51-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:8:79-137
+52
+53    <queries>
+53-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:10:3-19:13
+54        <intent>
+54-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:11:5-15:14
+55            <action
+55-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:12:7-117
+56                xmlns:android="http://schemas.android.com/apk/res/android"
+56-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:12:15-73
+57                android:name="android.intent.action.VIEW" />
+57-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:12:74-115
+58
+59            <category
+59-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:13:7-126
+60                xmlns:android="http://schemas.android.com/apk/res/android"
+60-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:13:17-75
+61                android:name="android.intent.category.BROWSABLE" />
+61-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:13:76-124
+62
+63            <data
+63-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:14:7-96
+64                xmlns:android="http://schemas.android.com/apk/res/android"
+64-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:14:13-71
+65                android:scheme="https" />
+65-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:14:72-94
+66        </intent>
+67        <intent>
+67-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:16:5-18:14
+68            <action
+68-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:17:7-142
+69                xmlns:android="http://schemas.android.com/apk/res/android"
+69-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:17:15-73
+70                android:name="android.support.customtabs.action.CustomTabsService" />
+70-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:17:74-140
+71        </intent>
+72    </queries>
+73
+74    <uses-permission android:name="android.permission.WAKE_LOCK" />
+74-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\admin\.gradle\caches\transforms-3\52c151d43c20f86a393a77d8ae4cfc6d\transformed\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:25:5-68
+74-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\admin\.gradle\caches\transforms-3\52c151d43c20f86a393a77d8ae4cfc6d\transformed\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:25:22-65
+75    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+75-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:5-77
+75-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:22-74
+76
+77    <application
+77-->E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
+78        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+78-->[androidx.core:core:1.8.0] C:\Users\admin\.gradle\caches\transforms-3\d2c2a41cccc4a8a09f37d2d4b50f77ad\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+79        android:extractNativeLibs="true"
+79-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:18-50
+80        android:icon="@mipmap/app_icon"
+80-->E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
+81        android:label="@string/app_name" >
+81-->E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
+82        <meta-data
+82-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:9-27:33
+83            android:name="unity.splash-mode"
+83-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-45
+84            android:value="0" />
+84-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-30
+85        <meta-data
+85-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:9-30:36
+86            android:name="unity.splash-enable"
+86-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-47
+87            android:value="True" />
+87-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-33
+88        <meta-data
+88-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:31:9-33:36
+89            android:name="unity.launch-fullscreen"
+89-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-51
+90            android:value="True" />
+90-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:33:13-33
+91        <meta-data
+91-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:34:9-36:37
+92            android:name="unity.allow-resizable-window"
+92-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-56
+93            android:value="False" />
+93-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:36:13-34
+94        <meta-data
+94-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:37:9-39:50
+95            android:name="notch.config"
+95-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-40
+96            android:value="portrait|landscape" />
+96-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:39:13-47
+97        <meta-data
+97-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:40:9-42:36
+98            android:name="unity.auto-report-fully-drawn"
+98-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-57
+99            android:value="true" />
+99-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-33
+100
+101        <activity
+101-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:44:9-65:20
+102            android:name="com.unity3d.player.UnityPlayerActivity"
+102-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-66
+103            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+103-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-194
+104            android:exported="true"
+104-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-36
+105            android:hardwareAccelerated="false"
+105-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:48:13-48
+106            android:launchMode="singleTask"
+106-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:49:13-44
+107            android:resizeableActivity="false"
+107-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:50:13-47
+108            android:screenOrientation="fullUser"
+108-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:51:13-49
+109            android:theme="@style/UnityThemeSelector" >
+109-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:52:13-54
+110            <intent-filter>
+110-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:53:13-57:29
+111                <category android:name="android.intent.category.LAUNCHER" />
+111-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:17-77
+111-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:27-74
+112
+113                <action android:name="android.intent.action.MAIN" />
+113-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:56:17-69
+113-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:56:25-66
+114            </intent-filter>
+115
+116            <meta-data
+116-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:59:13-61:40
+117                android:name="unityplayer.UnityActivity"
+117-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:60:17-57
+118                android:value="true" />
+118-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:61:17-37
+119            <meta-data
+119-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:62:13-64:40
+120                android:name="notch_support"
+120-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:63:17-45
+121                android:value="true" />
+121-->[:unityLibrary] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:64:17-37
+122        </activity>
+123        <activity
+123-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:21:5-387
+124            xmlns:android="http://schemas.android.com/apk/res/android"
+124-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:21:15-73
+125            android:name="com.google.android.gms.ads.AdActivity"
+125-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:21:121-173
+126            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+126-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:21:174-283
+127            android:exported="false"
+127-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:21:333-357
+128            android:theme="@android:style/Theme.Translucent" />
+128-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:21:284-332
+129
+130        <provider
+130-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:22:5-324
+131            xmlns:android="http://schemas.android.com/apk/res/android"
+131-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:22:15-73
+132            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+132-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:22:145-208
+133            android:authorities="com.DefaultCompany.Vampive3D.mobileadsinitprovider"
+133-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:22:234-294
+134            android:exported="false"
+134-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:22:209-233
+135            android:initOrder="100" />
+135-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:22:121-144
+136
+137        <service
+137-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:23:5-249
+138            xmlns:android="http://schemas.android.com/apk/res/android"
+138-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:23:14-72
+139            android:name="com.google.android.gms.ads.AdService"
+139-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:23:143-194
+140            android:enabled="true"
+140-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:23:120-142
+141            android:exported="false" />
+141-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:23:195-219
+142
+143        <activity
+143-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:24:5-355
+144            xmlns:android="http://schemas.android.com/apk/res/android"
+144-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:24:15-73
+145            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+145-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:24:121-190
+146            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+146-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:24:191-300
+147            android:exported="false" />
+147-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:24:301-325
+148        <activity
+148-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:25:5-395
+149            xmlns:android="http://schemas.android.com/apk/res/android"
+149-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:25:15-73
+150            android:name="com.google.android.gms.ads.NotificationHandlerActivity"
+150-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:25:153-222
+151            android:excludeFromRecents="true"
+151-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:25:360-393
+152            android:exported="false"
+152-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:25:283-307
+153            android:launchMode="singleTask"
+153-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:25:121-152
+154            android:taskAffinity=""
+154-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:25:336-359
+155            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+155-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\admin\.gradle\caches\transforms-3\d1890f7c407b17c7ad20295c4012162c\transformed\jetified-play-services-ads-lite-23.2.0\AndroidManifest.xml:25:223-282
+156
+157        <uses-library
+157-->[:unityLibrary:GoogleMobileAdsPlugin.androidlib] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-14:40
+158            android:name="org.apache.http.legacy"
+158-->[:unityLibrary:GoogleMobileAdsPlugin.androidlib] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-50
+159            android:required="false" />
+159-->[:unityLibrary:GoogleMobileAdsPlugin.androidlib] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-37
+160
+161        <meta-data
+161-->[:unityLibrary:GoogleMobileAdsPlugin.androidlib] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-18:70
+162            android:name="com.google.android.gms.ads.APPLICATION_ID"
+162-->[:unityLibrary:GoogleMobileAdsPlugin.androidlib] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-69
+163            android:value="ca-app-pub-2685870161898338~4336790395" />
+163-->[:unityLibrary:GoogleMobileAdsPlugin.androidlib] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-67
+164        <meta-data
+164-->[:unityLibrary:GoogleMobileAdsPlugin.androidlib] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-21:43
+165            android:name="com.google.unity.ads.UNITY_VERSION"
+165-->[:unityLibrary:GoogleMobileAdsPlugin.androidlib] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-62
+166            android:value="2022.3.11f1" />
+166-->[:unityLibrary:GoogleMobileAdsPlugin.androidlib] E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-40
+167
+168        <activity
+168-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\admin\.gradle\caches\transforms-3\a6fd220744d5b850d28f41c21c189b1f\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:9-22:45
+169            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+169-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\admin\.gradle\caches\transforms-3\a6fd220744d5b850d28f41c21c189b1f\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:19-85
+170            android:exported="false"
+170-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\admin\.gradle\caches\transforms-3\a6fd220744d5b850d28f41c21c189b1f\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:22:19-43
+171            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+171-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\admin\.gradle\caches\transforms-3\a6fd220744d5b850d28f41c21c189b1f\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:21:19-78
+172
+173        <meta-data
+173-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\admin\.gradle\caches\transforms-3\29ced571f7f1575fdd06bd48014ba345\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+174            android:name="com.google.android.gms.version"
+174-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\admin\.gradle\caches\transforms-3\29ced571f7f1575fdd06bd48014ba345\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+175            android:value="@integer/google_play_services_version" />
+175-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\admin\.gradle\caches\transforms-3\29ced571f7f1575fdd06bd48014ba345\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+176
+177        <uses-library
+177-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\admin\.gradle\caches\transforms-3\a612db06ae5b16ed1c78015428fe054d\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+178            android:name="android.ext.adservices"
+178-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\admin\.gradle\caches\transforms-3\a612db06ae5b16ed1c78015428fe054d\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+179            android:required="false" />
+179-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\admin\.gradle\caches\transforms-3\a612db06ae5b16ed1c78015428fe054d\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+180
+181        <provider
+181-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:31:9-39:20
+182            android:name="androidx.startup.InitializationProvider"
+182-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:32:13-67
+183            android:authorities="com.DefaultCompany.Vampive3D.androidx-startup"
+183-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:33:13-68
+184            android:exported="false" >
+184-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:34:13-37
+185            <meta-data
+185-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:36:13-38:52
+186                android:name="androidx.work.WorkManagerInitializer"
+186-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:37:17-68
+187                android:value="androidx.startup" />
+187-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:38:17-49
+188        </provider>
+189
+190        <service
+190-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:41:9-46:35
+191            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+191-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:42:13-88
+192            android:directBootAware="false"
+192-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:43:13-44
+193            android:enabled="@bool/enable_system_alarm_service_default"
+193-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:44:13-72
+194            android:exported="false" />
+194-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:45:13-37
+195        <service
+195-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:47:9-53:35
+196            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+196-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:48:13-84
+197            android:directBootAware="false"
+197-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:49:13-44
+198            android:enabled="@bool/enable_system_job_service_default"
+198-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:50:13-70
+199            android:exported="true"
+199-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:51:13-36
+200            android:permission="android.permission.BIND_JOB_SERVICE" />
+200-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:52:13-69
+201        <service
+201-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:54:9-59:35
+202            android:name="androidx.work.impl.foreground.SystemForegroundService"
+202-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:55:13-81
+203            android:directBootAware="false"
+203-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:56:13-44
+204            android:enabled="@bool/enable_system_foreground_service_default"
+204-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:57:13-77
+205            android:exported="false" />
+205-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:58:13-37
+206
+207        <receiver
+207-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:61:9-66:35
+208            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+208-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:62:13-88
+209            android:directBootAware="false"
+209-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:63:13-44
+210            android:enabled="true"
+210-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:64:13-35
+211            android:exported="false" />
+211-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:65:13-37
+212        <receiver
+212-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:67:9-77:20
+213            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+213-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:68:13-106
+214            android:directBootAware="false"
+214-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:69:13-44
+215            android:enabled="false"
+215-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:70:13-36
+216            android:exported="false" >
+216-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:71:13-37
+217            <intent-filter>
+217-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:73:13-76:29
+218                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+218-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:17-87
+218-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:25-84
+219                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+219-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:17-90
+219-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:25-87
+220            </intent-filter>
+221        </receiver>
+222        <receiver
+222-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:78:9-88:20
+223            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+223-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:79:13-104
+224            android:directBootAware="false"
+224-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:80:13-44
+225            android:enabled="false"
+225-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:81:13-36
+226            android:exported="false" >
+226-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:82:13-37
+227            <intent-filter>
+227-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:84:13-87:29
+228                <action android:name="android.intent.action.BATTERY_OKAY" />
+228-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:17-77
+228-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:25-74
+229                <action android:name="android.intent.action.BATTERY_LOW" />
+229-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:17-76
+229-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:25-73
+230            </intent-filter>
+231        </receiver>
+232        <receiver
+232-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:89:9-99:20
+233            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+233-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:90:13-104
+234            android:directBootAware="false"
+234-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:91:13-44
+235            android:enabled="false"
+235-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:92:13-36
+236            android:exported="false" >
+236-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:93:13-37
+237            <intent-filter>
+237-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:95:13-98:29
+238                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+238-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:17-83
+238-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:25-80
+239                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+239-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:17-82
+239-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:25-79
+240            </intent-filter>
+241        </receiver>
+242        <receiver
+242-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:100:9-109:20
+243            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+243-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:101:13-103
+244            android:directBootAware="false"
+244-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:102:13-44
+245            android:enabled="false"
+245-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:103:13-36
+246            android:exported="false" >
+246-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:104:13-37
+247            <intent-filter>
+247-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:106:13-108:29
+248                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+248-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:17-79
+248-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:25-76
+249            </intent-filter>
+250        </receiver>
+251        <receiver
+251-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:110:9-121:20
+252            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+252-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:111:13-88
+253            android:directBootAware="false"
+253-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:112:13-44
+254            android:enabled="false"
+254-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:113:13-36
+255            android:exported="false" >
+255-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:114:13-37
+256            <intent-filter>
+256-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:116:13-120:29
+257                <action android:name="android.intent.action.BOOT_COMPLETED" />
+257-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:17-79
+257-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:25-76
+258                <action android:name="android.intent.action.TIME_SET" />
+258-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:17-73
+258-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:25-70
+259                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+259-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:17-81
+259-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:25-78
+260            </intent-filter>
+261        </receiver>
+262        <receiver
+262-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:122:9-131:20
+263            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+263-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:123:13-99
+264            android:directBootAware="false"
+264-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:124:13-44
+265            android:enabled="@bool/enable_system_alarm_service_default"
+265-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:125:13-72
+266            android:exported="false" >
+266-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:126:13-37
+267            <intent-filter>
+267-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:128:13-130:29
+268                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+268-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:17-98
+268-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:25-95
+269            </intent-filter>
+270        </receiver>
+271        <receiver
+271-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:132:9-142:20
+272            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+272-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:133:13-78
+273            android:directBootAware="false"
+273-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:134:13-44
+274            android:enabled="true"
+274-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:135:13-35
+275            android:exported="true"
+275-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:136:13-36
+276            android:permission="android.permission.DUMP" >
+276-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:137:13-57
+277            <intent-filter>
+277-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:139:13-141:29
+278                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+278-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:17-88
+278-->[androidx.work:work-runtime:2.7.0] C:\Users\admin\.gradle\caches\transforms-3\e20c9597d9fccfb19f4162db1d7b47e7\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:25-85
+279            </intent-filter>
+280        </receiver>
+281
+282        <service
+282-->[androidx.room:room-runtime:2.2.5] C:\Users\admin\.gradle\caches\transforms-3\8e7e8d1e8f839d3e8f31e7374494ca75\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+283            android:name="androidx.room.MultiInstanceInvalidationService"
+283-->[androidx.room:room-runtime:2.2.5] C:\Users\admin\.gradle\caches\transforms-3\8e7e8d1e8f839d3e8f31e7374494ca75\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+284            android:directBootAware="true"
+284-->[androidx.room:room-runtime:2.2.5] C:\Users\admin\.gradle\caches\transforms-3\8e7e8d1e8f839d3e8f31e7374494ca75\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+285            android:exported="false" />
+285-->[androidx.room:room-runtime:2.2.5] C:\Users\admin\.gradle\caches\transforms-3\8e7e8d1e8f839d3e8f31e7374494ca75\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+286    </application>
+287
+288</manifest>

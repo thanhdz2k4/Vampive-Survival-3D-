@@ -8,6 +8,7 @@ pluginManagement {
 }
 
 include ':launcher', ':unityLibrary'
+include 'unityLibrary:GoogleMobileAdsPlugin.androidlib'
 
 
 dependencyResolutionManagement {
@@ -16,6 +17,13 @@ dependencyResolutionManagement {
         
         google()
         mavenCentral()
+// Android Resolver Repos Start
+        def unityProjectPath = $/file:///E:/Githup Project/Vampive-Survival-3D-/$.replace("\\", "/")
+        maven {
+            url "https://maven.google.com/" // Assets/GoogleMobileAds/Editor/GoogleMobileAdsDependencies.xml:7, Assets/GoogleMobileAds/Editor/GoogleMobileAdsDependencies.xml:12, Assets/GoogleMobileAds/Editor/GoogleUmpDependencies.xml:7
+        }
+        mavenLocal()
+// Android Resolver Repos End
         flatDir {
             dirs "${project(':unityLibrary').projectDir}/libs"
         }

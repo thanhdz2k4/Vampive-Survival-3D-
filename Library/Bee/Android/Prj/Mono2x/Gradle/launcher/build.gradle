@@ -74,3 +74,5 @@ android {
         }
     }
 }
+
+apply from: '..\\unityLibrary\\GoogleMobileAdsPlugin.androidlib\\packaging_options.gradle'
