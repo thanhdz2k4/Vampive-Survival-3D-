@@ -1,0 +1,16 @@
+<dependencies>
+  <compile
+      roots="E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release">
+    <dependency
+        name="E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release,__local_aars__:E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar">
+    <dependency
+        name="E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:E:\Githup Project\Vampive-Survival-3D-\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"/>
+  </package>
+</dependencies>
