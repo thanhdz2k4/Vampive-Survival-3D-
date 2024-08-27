@@ -59,12 +59,41 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Skill\Animation\SkillAnimation.cs" />
+    <Compile Include="Assets\Scripts\Controller\Animation\Attack\EnemyAttackAnimationiByDistance.cs" />
+    <Compile Include="Assets\Scripts\Controller\Check\CheckOnSurface.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObject\Skill\SkillScriptableObject.cs" />
     <Compile Include="Assets\Tool\Joystick Pack\Examples\JoystickSetterExample.cs" />
+    <Compile Include="Assets\Scripts\Texture\TextureAltasExample.cs" />
+    <Compile Include="Assets\Scripts\Controller\Rotate\RotateWithDirection.cs" />
+    <Compile Include="Assets\Scripts\Controller\Move\MoveWithDirection.cs" />
     <Compile Include="Assets\Tool\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+    <Compile Include="Assets\Scripts\Controller\Physics\Gravity.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObject\Enemy\EnemyScriptableObject.cs" />
+    <Compile Include="Assets\Scripts\Controller\Rotate\EnemyRotateWithDirection.cs" />
+    <Compile Include="Assets\Scripts\Interface\iMove.cs" />
+    <Compile Include="Assets\Scripts\PoolingObject\PoolingObject.cs" />
+    <Compile Include="Assets\Scripts\State\State.cs" />
+    <Compile Include="Assets\Scripts\Controller\Animation\MoveAnimation.cs" />
     <Compile Include="Assets\Tool\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Tool\Joystick Pack\Scripts\Base\Joystick.cs" />
+    <Compile Include="Assets\Scripts\Interface\iRotate.cs" />
+    <Compile Include="Assets\Scripts\Controller\Animation\MoveAnimationByDirection.cs" />
     <Compile Include="Assets\Tool\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
+    <Compile Include="Assets\Scripts\Controller\Move\EnemyMoveWithDirection.cs" />
+    <Compile Include="Assets\Scripts\Skill\Behaviour\SkillBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Texture\uPaddingBleed.cs" />
+    <Compile Include="Assets\Scripts\Map\MapController.cs" />
     <Compile Include="Assets\Tool\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
+    <Compile Include="Assets\Scripts\Controller\Rotate\RotateWithInput.cs" />
+    <Compile Include="Assets\Scripts\State\Enemy\EnemyStats.cs" />
+    <Compile Include="Assets\Scripts\Interface\IAnimation.cs" />
+    <Compile Include="Assets\Scripts\Controller\Animation\Attack\AttackAnimationByDistance.cs" />
+    <Compile Include="Assets\Scripts\Spawner\PropsRandomizer.cs" />
+    <Compile Include="Assets\Scripts\Map\DespawnObjByPosition.cs" />
+    <Compile Include="Assets\Scripts\Map\Chucktrigger.cs" />
+    <Compile Include="Assets\Scripts\Controller\Animation\MoveAnimationWithInput.cs" />
+    <Compile Include="Assets\Scripts\Controller\Move\MoveWithInput.cs" />
     <Compile Include="Assets\Tool\Joystick Pack\Examples\JoystickPlayerExample.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -827,14 +856,14 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
