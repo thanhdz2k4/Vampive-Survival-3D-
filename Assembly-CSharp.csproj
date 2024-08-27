@@ -94,6 +94,7 @@
     <Compile Include="Assets\Scripts\Map\Chucktrigger.cs" />
     <Compile Include="Assets\Scripts\Controller\Animation\MoveAnimationWithInput.cs" />
     <Compile Include="Assets\Scripts\Controller\Move\MoveWithInput.cs" />
+    <Compile Include="Assets\test1.cs" />
     <Compile Include="Assets\Tool\Joystick Pack\Examples\JoystickPlayerExample.cs" />
   </ItemGroup>
   <ItemGroup>

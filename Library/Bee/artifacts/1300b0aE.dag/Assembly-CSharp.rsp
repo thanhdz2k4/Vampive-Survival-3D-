@@ -411,6 +411,7 @@
 "Assets/Scripts/State/State.cs"
 "Assets/Scripts/Texture/TextureAltasExample.cs"
 "Assets/Scripts/Texture/uPaddingBleed.cs"
+"Assets/test1.cs"
 "Assets/Tool/Joystick Pack/Examples/JoystickPlayerExample.cs"
 "Assets/Tool/Joystick Pack/Examples/JoystickSetterExample.cs"
 "Assets/Tool/Joystick Pack/Scripts/Base/Joystick.cs"

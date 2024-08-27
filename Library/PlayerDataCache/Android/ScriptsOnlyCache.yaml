@@ -1,8 +1,11 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - Test
+    - Chucktrigger
+    - DespawnObjByPosition
+    - PropsRandomizer
     - VariableJoystick
+    - test1
     GoogleMobileAds.Editor:
     - GoogleMobileAds.Editor.GoogleMobileAdsSettings
     Unity.2D.Tilemap.Editor.dll:
@@ -170,6 +173,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
@@ -195,91 +200,97 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17104}
     - Class: 114
-      Script: {instanceID: 17688}
+      Script: {instanceID: 17694}
     - Class: 114
-      Script: {instanceID: 17846}
+      Script: {instanceID: 17852}
     - Class: 114
-      Script: {instanceID: 17948}
+      Script: {instanceID: 17954}
     - Class: 114
-      Script: {instanceID: 18082}
+      Script: {instanceID: 18088}
     - Class: 114
-      Script: {instanceID: 18218}
+      Script: {instanceID: 18224}
     - Class: 114
-      Script: {instanceID: 18568}
+      Script: {instanceID: 18574}
     - Class: 114
-      Script: {instanceID: 18742}
+      Script: {instanceID: 18750}
     - Class: 114
-      Script: {instanceID: 18900}
+      Script: {instanceID: 18908}
     - Class: 114
-      Script: {instanceID: 19638}
+      Script: {instanceID: 19648}
     - Class: 114
-      Script: {instanceID: 19774}
+      Script: {instanceID: 19784}
     - Class: 114
-      Script: {instanceID: 20012}
+      Script: {instanceID: 20024}
     - Class: 114
-      Script: {instanceID: 20076}
+      Script: {instanceID: 20088}
     - Class: 114
-      Script: {instanceID: 20184}
+      Script: {instanceID: 20196}
     - Class: 114
-      Script: {instanceID: 20642}
+      Script: {instanceID: 20660}
     - Class: 114
-      Script: {instanceID: 20810}
+      Script: {instanceID: 20828}
     - Class: 114
-      Script: {instanceID: 21300}
+      Script: {instanceID: 21320}
     - Class: 114
-      Script: {instanceID: 22312}
+      Script: {instanceID: 22340}
     - Class: 114
-      Script: {instanceID: 22374}
+      Script: {instanceID: 22402}
     - Class: 114
-      Script: {instanceID: 22452}
-    - Class: 114
-      Script: {instanceID: 22562}
+      Script: {instanceID: 22480}
     - Class: 114
       Script: {instanceID: 22590}
     - Class: 114
-      Script: {instanceID: 22684}
+      Script: {instanceID: 22618}
     - Class: 114
-      Script: {instanceID: 22972}
+      Script: {instanceID: 22712}
     - Class: 114
-      Script: {instanceID: 22976}
+      Script: {instanceID: 23000}
     - Class: 114
-      Script: {instanceID: 23002}
+      Script: {instanceID: 23004}
     - Class: 114
-      Script: {instanceID: 23428}
+      Script: {instanceID: 23030}
     - Class: 114
-      Script: {instanceID: 23856}
+      Script: {instanceID: 23458}
     - Class: 114
-      Script: {instanceID: 23980}
+      Script: {instanceID: 23888}
     - Class: 114
-      Script: {instanceID: 23986}
+      Script: {instanceID: 24012}
     - Class: 114
-      Script: {instanceID: 24162}
+      Script: {instanceID: 24018}
     - Class: 114
-      Script: {instanceID: 24216}
+      Script: {instanceID: 24182}
     - Class: 114
-      Script: {instanceID: 24288}
+      Script: {instanceID: 24198}
     - Class: 114
-      Script: {instanceID: 24390}
+      Script: {instanceID: 24252}
     - Class: 114
-      Script: {instanceID: 24406}
+      Script: {instanceID: 24324}
     - Class: 114
-      Script: {instanceID: 24564}
+      Script: {instanceID: 24428}
     - Class: 114
-      Script: {instanceID: 24768}
+      Script: {instanceID: 24444}
     - Class: 114
-      Script: {instanceID: 24944}
+      Script: {instanceID: 24602}
     - Class: 114
-      Script: {instanceID: 25008}
+      Script: {instanceID: 24808}
     - Class: 114
-      Script: {instanceID: 25056}
+      Script: {instanceID: 24986}
     - Class: 114
-      Script: {instanceID: 25520}
+      Script: {instanceID: 25050}
     - Class: 114
-      Script: {instanceID: 26506}
+      Script: {instanceID: 25098}
     - Class: 114
-      Script: {instanceID: 26938}
+      Script: {instanceID: 25198}
     - Class: 114
-      Script: {instanceID: 29042}
+      Script: {instanceID: 25566}
+    - Class: 114
+      Script: {instanceID: 26552}
+    - Class: 114
+      Script: {instanceID: 26944}
+    - Class: 114
+      Script: {instanceID: 26992}
+    - Class: 114
+      Script: {instanceID: 345478}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -437,6 +448,12 @@ ScriptsOnlyBuild:
     className: CinemachineCameraOffset
   - hash:
       serializedVersion: 2
+      Hash: 22f831606365ebe89587e0add269ba16
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnemyMoveWithDirection
+  - hash:
+      serializedVersion: 2
       Hash: dc90caa97d497baeae83b781ee77eed5
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
@@ -447,6 +464,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
     className: WhiteBalance
+  - hash:
+      serializedVersion: 2
+      Hash: eb2d0d9db6cecfaaa43150fd89021b20
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SkillAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: IAnimation
   - hash:
       serializedVersion: 2
       Hash: 7076552313cc5405cce27134bb16ec41
@@ -617,6 +646,12 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionEnterMessageListener
   - hash:
       serializedVersion: 2
+      Hash: a8b77d61fcc39a6bf80362fe1415102b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Gravity
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -755,6 +790,12 @@ ScriptsOnlyBuild:
     className: ShadowCaster2D
   - hash:
       serializedVersion: 2
+      Hash: 9f035bf922464fce3e3cf7bae6c50a16
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MoveAnimation
+  - hash:
+      serializedVersion: 2
       Hash: a4d905db69ca7f45f45458ae380fb66f
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -869,6 +910,12 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
+      Hash: 8383d380d0a4d9a322b996ee83ef32cb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SkillScriptableObject
+  - hash:
+      serializedVersion: 2
       Hash: cfa0bc588212b375b04e2336ce5e1315
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
@@ -933,6 +980,24 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerToggleHistory
+  - hash:
+      serializedVersion: 2
+      Hash: 756c226ddde7303e8991639aab0fd874
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnemyRotateWithDirection
+  - hash:
+      serializedVersion: 2
+      Hash: 34c7e237c8cac9445b86856952e5e20f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RotateWithInput
+  - hash:
+      serializedVersion: 2
+      Hash: 670b8814488a205aa1d9dcd7bc56be64
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CheckOnSurface
   - hash:
       serializedVersion: 2
       Hash: a9340df851e094f0e1a209d8b81aaedc
@@ -1109,6 +1174,12 @@ ScriptsOnlyBuild:
     className: GroupWeightManipulator
   - hash:
       serializedVersion: 2
+      Hash: 13bcaafe788cd85832ca5f4133b80dc7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RotateWithDirection
+  - hash:
+      serializedVersion: 2
       Hash: 5915da998ee62251dd4156db5c1e8881
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
@@ -1137,6 +1208,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerEnumHistory
+  - hash:
+      serializedVersion: 2
+      Hash: 9f035bf922464fce3e3cf7bae6c50a16
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MoveAnimationByDirection
   - hash:
       serializedVersion: 2
       Hash: fcc569162a8d9bd9df34e8c9dee84212
@@ -1173,6 +1250,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
     className: Vignette
+  - hash:
+      serializedVersion: 2
+      Hash: 9ff18e019b7c0566bba7b50e7114c43d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MoveWithDirection
   - hash:
       serializedVersion: 2
       Hash: bda7bb16fefdce6ac2b9a4abce1c9087
@@ -1229,10 +1312,22 @@ ScriptsOnlyBuild:
     className: CinemachineBlendListCamera
   - hash:
       serializedVersion: 2
+      Hash: 8747b12dd15c5c8f7eadd83a69c6f088
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MoveWithInput
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnEndDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a5d07f94bd7a3bb5c8150eac76113db3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MoveAnimationWithInput
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1352,13 +1447,13 @@ ScriptsOnlyBuild:
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
-    className: UnityOnTriggerExitMessageListener
+    className: UnityOnCollisionEnter2DMessageListener
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
-    className: UnityOnCollisionEnter2DMessageListener
+    className: UnityOnTriggerExitMessageListener
   - hash:
       serializedVersion: 2
       Hash: 1b4a83f2a2f1a4def12cdc9223cce72c
@@ -1427,6 +1522,12 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
+      Hash: fbac6908f8e29489006f21579dc24ab7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AttackAnimationByDistance
+  - hash:
+      serializedVersion: 2
       Hash: 8a20581fdc44f4e1a032de6ae8244810
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
@@ -1473,6 +1574,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
     className: UIFoldout
+  - hash:
+      serializedVersion: 2
+      Hash: 591662d8b6552c2783198fae28b5ba8d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnemyScriptableObject
   - hash:
       serializedVersion: 2
       Hash: a49a017b805bc6b5963903daa5333d5d
@@ -1553,6 +1660,12 @@ ScriptsOnlyBuild:
     className: LiftGammaGain
   - hash:
       serializedVersion: 2
+      Hash: ce6f5ec91fb587622f42c078f4f523cc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DespawnObjByPosition
+  - hash:
+      serializedVersion: 2
       Hash: 971e8ce660e35a51d5c4384a57b98990
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
@@ -1587,6 +1700,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d27e46cc415c8c4b969414ab41920bd3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnemyStats
   - hash:
       serializedVersion: 2
       Hash: 751d867553f413cde86fe5db0b02780d
@@ -1649,6 +1768,12 @@ ScriptsOnlyBuild:
     className: IsometricRuleTile
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: State
+  - hash:
+      serializedVersion: 2
       Hash: f4f39b64f410b0cd98b49df4bad0eb7e
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -1683,6 +1808,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 5871f44075ced145b904b5cc7e4880ef
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MapController
   - hash:
       serializedVersion: 2
       Hash: 116a5d45ac93b8a51d0a895f4b9c4df2
@@ -1733,6 +1864,12 @@ ScriptsOnlyBuild:
     className: CinemachineFixedSignal
   - hash:
       serializedVersion: 2
+      Hash: 133f26fead46db1abd9e5baaca65eb5a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PropsRandomizer
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1767,6 +1904,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
     className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 7263b950fcf59a5c0b229cfb3adb8481
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnemyAttackAnimationiByDistance
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1937,6 +2080,12 @@ ScriptsOnlyBuild:
     className: Variables
   - hash:
       serializedVersion: 2
+      Hash: 7a69a5fdec121d64e23d6802843c1afe
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SkillBehaviour
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
@@ -1979,6 +2128,12 @@ ScriptsOnlyBuild:
     className: CinemachineRecomposer
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Chucktrigger
+  - hash:
+      serializedVersion: 2
       Hash: fbb610f26ad3eb353953ad47e919401c
     assemblyName: Cinemachine
     namespaceName: Cinemachine
@@ -1991,10 +2146,22 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerFoldout
   - hash:
       serializedVersion: 2
+      Hash: 00721c68bb237e852f4d4c2f9f568ce8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PoolingObject
+  - hash:
+      serializedVersion: 2
       Hash: afe1800287c9574079eab3fea2622416
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 5922c7ddc75eea87f8f0093b3b39c65b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TextureAltasExample
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -2036,8 +2203,8 @@ ScriptsOnlyBuild:
       Hash: 04838081151903837972c5fcf36c2ec3
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: Test
+    className: test1
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: E:/download and destop/New folder (2)/3rr5.apk
+  playerPath: E:/download and destop/New folder (2)/3rr6.apk
