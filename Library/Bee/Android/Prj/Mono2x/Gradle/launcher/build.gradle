@@ -8,7 +8,7 @@ android {
     ndkPath "C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK"
 
     compileSdkVersion 34
-    buildToolsVersion '32.0.0'
+    buildToolsVersion '33.0.3'
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
@@ -74,8 +74,5 @@ android {
         }
     }
 }
-
-
-
 
 apply from: '..\\unityLibrary\\GoogleMobileAdsPlugin.androidlib\\packaging_options.gradle'

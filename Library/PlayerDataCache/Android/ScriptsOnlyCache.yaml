@@ -1023,7 +1023,7 @@ ScriptsOnlyBuild:
     className: EnemyRotateWithDirection
   - hash:
       serializedVersion: 2
-      Hash: 34c7e237c8cac9445b86856952e5e20f
+      Hash: f734dabc6187525f4fd68e3d42e04a8e
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: RotateWithInput
@@ -2236,4 +2236,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: E:/download and destop/New folder (2)/3rr7.apk
+  playerPath: E:/download and destop/New folder (2)/3rr8.apk

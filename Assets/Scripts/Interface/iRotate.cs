@@ -4,5 +4,5 @@ using UnityEngine;
 
 public interface iRotate 
 {
-    void Rotate();
+    void Rotate(Vector3 target);
 }

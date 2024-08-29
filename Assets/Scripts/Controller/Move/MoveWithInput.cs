@@ -14,6 +14,7 @@ public class MoveWithInput : MonoBehaviour, iMove
     float acceleration, maxSpeed, maxSpeedBackWalk;
 
     float moveInput;
+    Vector3 dir;
 
     [SerializeField]
     bool isContinueMove;
@@ -44,21 +45,28 @@ public class MoveWithInput : MonoBehaviour, iMove
     void Update()
     {
        
-            if(isPC)
-            {
-                moveInput = Input.GetAxis("Vertical");
-            }
-            else if(isMobile)
-            {
-                moveInput = variableJoystick.Vertical;
-            }
                
-            Move();
+       
         
        
     }
 
-   
+    private void FixedUpdate()
+    {
+
+        if (isPC)
+        {
+            moveInput = Input.GetAxis("Vertical");
+        }
+        else if (isMobile)
+        {
+            //moveInput = variableJoystick.Vertical;
+            dir = new Vector3(variableJoystick.Horizontal, 0, variableJoystick.Vertical).normalized;
+        }
+        Move();
+    }
+
+
 
     public void Move()
     {
@@ -66,15 +74,17 @@ public class MoveWithInput : MonoBehaviour, iMove
     }
 
      void Acceleration()
-    {
+    {/*
         if(moveInput > 0)
         {
             engineRB.velocity = Vector3.Lerp(engineRB.velocity, moveInput * maxSpeed * transform.forward, Time.fixedDeltaTime * acceleration);
         } else
         {
             engineRB.velocity = Vector3.Lerp(engineRB.velocity, moveInput * maxSpeedBackWalk * transform.forward, Time.fixedDeltaTime * acceleration);
-        }
-       
+        }*/
+
+        engineRB.velocity = Vector3.Lerp(engineRB.velocity, maxSpeed * dir, Time.fixedDeltaTime * acceleration);
+
     }
 
     public void ContinueMove()

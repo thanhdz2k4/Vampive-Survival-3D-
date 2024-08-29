@@ -346,7 +346,7 @@ Camera:
   far clip plane: 125.73
   field of view: 49.8111
   orthographic: 1
-  orthographic size: 25.21
+  orthographic size: 13.02
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -790,6 +790,10 @@ PrefabInstance:
       propertyPath: variableJoystick
       value: 
       objectReference: {fileID: 1391727986}
+    - target: {fileID: 8573988641102607007, guid: b1dcccdac77edd94d8b7dc546794adf0, type: 3}
+      propertyPath: rotateIncrement
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8573988641102607007, guid: b1dcccdac77edd94d8b7dc546794adf0, type: 3}
       propertyPath: variableJoystick
       value: 

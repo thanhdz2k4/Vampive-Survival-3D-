@@ -6,7 +6,7 @@
     maven="Gradle:launcher:"
     gradle="7.1.2"
     buildFolder="build"
-    bootClassPath="C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platforms\android-34\android.jar;C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\build-tools\32.0.0\core-lambda-stubs.jar"
+    bootClassPath="C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platforms\android-34\android.jar;C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\build-tools\33.0.3\core-lambda-stubs.jar"
     javaSourceLevel="11"
     compileTarget="android-34"
     neverShrinking="true">

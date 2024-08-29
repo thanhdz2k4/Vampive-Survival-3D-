@@ -6,7 +6,7 @@ public class RotateWithDirection : MonoBehaviour, iRotate
 { 
     
     protected string tagOfTarget;
-    Transform target;
+    protected Vector3 target;
     [SerializeField]
     float rotateIncrement = .09f;
 
@@ -17,23 +17,23 @@ public class RotateWithDirection : MonoBehaviour, iRotate
     {
         if (target == null)
         {
-            target = GameObject.FindWithTag(tagOfTarget).transform;
+            target = GameObject.FindWithTag(tagOfTarget).transform.position;
         }
     }
 
     // Update is called once per frame
     protected virtual void Update()
     {
-        Rotate();
+        Rotate(target);
     }
 
-    public void Rotate()
+    public void Rotate(Vector3 target)
     {
         // Calculate the direction to the target
-        Vector3 direction = (target.position - transform.position).normalized;
+        //Vector3 direction = (target - transform.position).normalized;
 
         // Create the target rotation based on the direction
-        Quaternion targetRotation = Quaternion.LookRotation(direction, Vector3.up);
+        Quaternion targetRotation = Quaternion.LookRotation(target, Vector3.up);
 
         // Smoothly rotate towards the target rotation using Slerp
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotateIncrement);
