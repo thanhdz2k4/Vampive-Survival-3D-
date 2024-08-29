@@ -7,6 +7,8 @@ public class DespawnObjByPosition : MonoBehaviour
     [SerializeField]
     string nameOfObjectToDespawn;
     Transform player;
+
+    
     PoolingObject poolingObject;
 
     [SerializeField]

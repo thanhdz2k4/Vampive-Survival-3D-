@@ -71,7 +71,7 @@ public class MapController : MonoBehaviour
     {
         GameObject obj = poolingObject.GetPoolObject();
         obj.transform.position = currentChuck.transform.Find(direction).position;
-        obj.name = direction;
+        
     }
 
 }

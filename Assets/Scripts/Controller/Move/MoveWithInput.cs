@@ -43,8 +43,7 @@ public class MoveWithInput : MonoBehaviour, iMove
     // Update is called once per frame
     void Update()
     {
-        if(isContinueMove)
-        {
+       
             if(isPC)
             {
                 moveInput = Input.GetAxis("Vertical");
@@ -55,7 +54,7 @@ public class MoveWithInput : MonoBehaviour, iMove
             }
                
             Move();
-        }
+        
        
     }
 
