@@ -13,6 +13,12 @@ ScriptsOnlyBuild:
     - RotateWithInput
     - SkillAnimation
     - VariableJoystick
+    Cinemachine.dll:
+    - Cinemachine.CinemachineBrain
+    - Cinemachine.CinemachineComposer
+    - Cinemachine.CinemachinePipeline
+    - Cinemachine.CinemachineTransposer
+    - Cinemachine.CinemachineVirtualCamera
     GoogleMobileAds.Editor:
     - GoogleMobileAds.Editor.GoogleMobileAdsSettings
     Unity.2D.Tilemap.Editor.dll:
@@ -92,6 +98,12 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
   serializedClasses:
+    Cinemachine:
+    - Cinemachine.CinemachineBlendDefinition
+    - Cinemachine.CinemachineBrain/BrainEvent
+    - Cinemachine.CinemachineBrain/VcamActivatedEvent
+    - Cinemachine.CinemachineVirtualCameraBase/TransitionParams
+    - Cinemachine.LensSettings
     Unity.RenderPipelines.Core.Runtime:
     - UnityEngine.Rendering.UI.DebugUIPrefabBundle
     UnityEngine.CoreModule:
@@ -229,9 +241,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18224}
     - Class: 114
+      Script: {instanceID: 18466}
+    - Class: 114
       Script: {instanceID: 18576}
     - Class: 114
       Script: {instanceID: 18648}
+    - Class: 114
+      Script: {instanceID: 18690}
     - Class: 114
       Script: {instanceID: 18752}
     - Class: 114
@@ -257,6 +273,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21322}
     - Class: 114
+      Script: {instanceID: 22056}
+    - Class: 114
       Script: {instanceID: 22206}
     - Class: 114
       Script: {instanceID: 22250}
@@ -280,6 +298,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 23032}
     - Class: 114
       Script: {instanceID: 23460}
+    - Class: 114
+      Script: {instanceID: 23594}
     - Class: 114
       Script: {instanceID: 23890}
     - Class: 114
@@ -312,6 +332,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 25100}
     - Class: 114
       Script: {instanceID: 25200}
+    - Class: 114
+      Script: {instanceID: 25502}
     - Class: 114
       Script: {instanceID: 25568}
     - Class: 114
@@ -2236,4 +2258,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: E:/download and destop/New folder (2)/3rr8.apk
+  playerPath: E:/download and destop/New folder (2)/3rr10.apk
