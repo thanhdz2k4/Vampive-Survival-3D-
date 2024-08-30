@@ -21,4 +21,6 @@ public class EnemyMoveWithDirection : MoveWithDirection
     {
         base.Update();
     }
+
+     
 }

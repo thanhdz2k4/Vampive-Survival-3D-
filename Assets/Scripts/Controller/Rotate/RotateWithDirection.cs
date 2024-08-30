@@ -12,13 +12,14 @@ public class RotateWithDirection : MonoBehaviour, iRotate
 
     
 
+    
+
     // Start is called before the first frame update
     protected virtual void Start()
     {
-        if (target == null)
-        {
-            target = GameObject.FindWithTag(tagOfTarget).transform.position;
-        }
+       
+            
+        
     }
 
     // Update is called once per frame

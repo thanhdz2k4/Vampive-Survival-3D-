@@ -9,7 +9,7 @@ public class MoveAnimationWithInput : MoveAnimation
     VariableJoystick variableJoystick;
 
     [SerializeField]
-    string nameAnimationMoveToward, nameAnimationMoveBackward;
+    string nameAnimationMoveToward;
 
     bool isMobile;
     bool isPC;
@@ -45,14 +45,8 @@ public class MoveAnimationWithInput : MoveAnimation
         }
        
         AnimationMoveToward(nameAnimationMoveToward);
-        AnimationMoveBackward(nameAnimationMoveBackward);
-
     }
 
-    protected override void AnimationMoveBackward(string nameOfMoveBackwardAnimation)
-    {
-        animator.SetFloat(nameOfMoveBackwardAnimation, dirXMove);
-    }
 
     protected override void AnimationMoveToward(string nameOfMoveTowardAnimation)
     {

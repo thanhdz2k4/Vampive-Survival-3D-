@@ -119,6 +119,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
@@ -346,6 +347,8 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Burst.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Burst.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.ForUI.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Mathematics.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Mathematics.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
@@ -382,6 +385,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Scripts/Audio/AudioController.cs"
 "Assets/Scripts/Controller/Animation/Attack/AttackAnimationByDistance.cs"
 "Assets/Scripts/Controller/Animation/Attack/EnemyAttackAnimationiByDistance.cs"
 "Assets/Scripts/Controller/Animation/MoveAnimation.cs"
@@ -412,6 +416,7 @@
 "Assets/Scripts/Texture/TextureAltasExample.cs"
 "Assets/Scripts/Texture/uPaddingBleed.cs"
 "Assets/test1.cs"
+"Assets/Tool/Input system/InputSystem.cs"
 "Assets/Tool/Joystick Pack/Examples/JoystickPlayerExample.cs"
 "Assets/Tool/Joystick Pack/Examples/JoystickSetterExample.cs"
 "Assets/Tool/Joystick Pack/Scripts/Base/Joystick.cs"
